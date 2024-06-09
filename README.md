@@ -16,3 +16,6 @@ The dataset consists of movie reviews, each labeled as positive or negative. The
 ### Sentiment Prediction and Performance Metrics
 Sentiments are predicted using specific, instruction-based prompts through the KoboldCpp API with the Mistral model. The configuration uses a low temperature of 0.1, top P of 0.2, and a max length of 2 for precise and relevant outputs. Metrics such as **accuracy (94.7368%), precision (97.6898%), recall (91.6409%),** and **F1 Score (94.5687%)** demonstrate the model's effectiveness.
 
+![Confusion Matrix](confusion_matrix.png)
+
+*Confusion matrix showing the performance of the model in predicting sentiments for movie reviews.*
